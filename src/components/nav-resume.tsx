@@ -1,5 +1,5 @@
 "use client";
-
+import { useTranslations } from "next-intl";
 import { ChevronRight, type LucideIcon } from "lucide-react";
 
 import {
@@ -18,7 +18,7 @@ import {
   SidebarMenuSubItem,
 } from "@/components/ui/sidebar";
 
-export function NavMain({
+export function NavResume({
   items,
 }: {
   items: {
@@ -32,9 +32,10 @@ export function NavMain({
     }[];
   }[];
 }) {
+  const t = useTranslations("NavMain");
   return (
     <SidebarGroup>
-      <SidebarGroupLabel>Usuario</SidebarGroupLabel>
+      <SidebarGroupLabel>{t("userSection")}</SidebarGroupLabel>
       <SidebarMenu>
         {items.map((item) => (
           <Collapsible

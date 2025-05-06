@@ -1,0 +1,22 @@
+{
+  "NavMain": {
+    "userSection": "Usuario",
+    "projectSection": "Proyectos",
+    "subTitle": "Curriculum",
+    "about": "Sobre mi",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "project1": "Proyecto 1",
+    "project2": "Proyecto 2",
+    "project3": "Proyecto 3"
+  },
+  "DefaultUser": {
+    "defaultName": "Invitado"
+  },
+  "Language": {
+    "lang": "Idioma",
+    "langEs": "Español",
+    "langEn": "Inglés"
+  }
+}

@@ -1,12 +1,12 @@
+"use client";
 import { AppSidebar } from "@/components/app-sidebar";
+import { LanguageToggle } from "@/components/language-toggle";
 import { ModeToggle } from "@/components/theme-toggle";
 import {
   Breadcrumb,
   BreadcrumbItem,
   BreadcrumbLink,
   BreadcrumbList,
-  BreadcrumbPage,
-  BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { Separator } from "@/components/ui/separator";
 import {
@@ -34,14 +34,11 @@ export default function Page() {
                     Building Your Application
                   </BreadcrumbLink>
                 </BreadcrumbItem>
-                <BreadcrumbSeparator className="hidden md:block" />
-                <BreadcrumbItem>
-                  <BreadcrumbPage>Data Fetching</BreadcrumbPage>
-                </BreadcrumbItem>
               </BreadcrumbList>
             </Breadcrumb>
           </div>
-          <div>
+          <div className="flex items-center gap-2">
+            <LanguageToggle />
             <ModeToggle />
           </div>
         </header>

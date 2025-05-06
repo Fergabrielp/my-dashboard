@@ -1,0 +1,22 @@
+{
+  "NavMain": {
+    "userSection": "User",
+    "projectSection": "Projects",
+    "subTitle": "Resume",
+    "about": "About me",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact",
+    "project1": "Project 1",
+    "project2": "Project 2",
+    "project3": "Project 3"
+  },
+  "DefaultUser": {
+    "defaultName": "Guest"
+  },
+  "Language": {
+    "lang": "Language",
+    "langEs": "Spanish",
+    "langEn": "English"
+  }
+}
